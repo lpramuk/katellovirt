@@ -20,7 +20,7 @@ class katellovirt::libvirt::storage {
     content => $content,
     owner   => 'root',
     group   => 'root',
-    mode    => 0600,
+    mode    => '0600',
     replace => false,
   } ->
   exec { "virsh-pool-define-${pool_name}":
