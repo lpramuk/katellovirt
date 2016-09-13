@@ -6,7 +6,7 @@ and Foreman for provisioning VMs.
 
 ## Usage
 
-    puppet module install domcleal/katellovirt
+    puppet module install sat6qe/katellovirt
     puppet apply -v -e 'include katellovirt'
 
 ## Copyright
