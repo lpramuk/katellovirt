@@ -19,7 +19,7 @@ class katellovirt::firewall::pre {
     action  => 'accept',
   }->
   firewall { '003 accept ssh':
-    port   => 22,
+    dport  => 22,
     proto  => tcp,
     action => accept,
   }
